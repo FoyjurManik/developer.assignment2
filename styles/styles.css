@@ -103,6 +103,15 @@ margin-bottom: 50px;
 height: 550px;
 flex-shrink: 0;
 }
+.destination-title{
+    text-align: center;
+    margin: 50px 330px 10px;
+}
+.destination-imgs{
+    display: grid;
+    margin: 20px 135px 40px;
+    
+}
 
 
 
@@ -127,3 +136,5 @@ flex-shrink: 0;
     nav{
      flex-direction: column;
     }
+
+    
