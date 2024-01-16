@@ -291,3 +291,71 @@ margin-top: 60px;
   border-radius: 16px;
   width: 100%;
  }
+ /* .....Newsletter section styles..... */
+ .newsletter{
+    /* width: 100%; */
+    margin-top: 100px;
+    margin-bottom: 50px;
+   }
+   .newsletter-container{
+      display: flex;
+      gap:20px;
+   }
+   .input{
+    padding: 40px;
+    border-radius: 16px;
+  border: 1px solid #FF5400;
+   }
+   .newsletter-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+   hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgba(19, 19, 24, 0.10);
+   }
+   #name, #email{
+    border: none;
+    padding: 15px ;
+    border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.30);
+  font-size: 1rem;
+  font-weight: 400;
+   }
+  .news-img-container {
+    padding: 15% 0;
+    width: calc(60% - 20px);
+    height: 100%;
+  background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  }
+   .news-tag{
+    position: relative;
+    left: 46%;
+    top: 120px;
+    transform: rotate(-20deg);
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+  background: #FF5400;
+   }
+   .save-link{
+    color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2px;
+   }
+   .save-title{
+    color: #FFF;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2px;
+   }
