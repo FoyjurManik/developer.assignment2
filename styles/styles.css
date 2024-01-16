@@ -73,6 +73,20 @@ font-weight: 800;
     margin-top: 35px;
     margin-right: 50px;
   }
+    
+   .hamburger-menu {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #080808;
+        margin: 5px 0;
+    } 
+
+  
   .home{
     color: #FF5400;
 font-size: 1.12rem;
@@ -405,3 +419,176 @@ footer{
    font-size: 1rem;
    font-weight: 300;
     }
+
+    
+/* .....Responsiveness for phone/small devices.... */
+
+  @media screen and (max-width:600px) {
+    *{
+        margin: 0 auto;
+    }
+    main{
+        width: 90vw;
+    }
+    /* .....Header section resp .... */
+    .nav-heading{
+        margin-left: 5px;
+        flex-direction: column;
+
+    }
+    .nav-img{
+        margin-left: 5px;
+    }
+    
+    nav{
+
+        flex-direction: column;
+    }
+    .nav-items {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        margin: 10px 400px;
+    }
+
+    .banner{
+        padding:10px;
+    }
+    .banner-input{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+       padding: 20px;
+    }
+    .input-field,.bnr-btn{
+        width: 100%;
+    }
+    .banner-input .text{
+       width: 92%;
+    }
+    /* .....Popular section resp .... */
+    .popular-container{
+        flex-direction: column;
+        gap: 50px;
+        padding: 10px;
+    }
+    /* .....Destination section resp.... */
+    .dest-content{
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .dest-content .heading{
+        margin-bottom: 20px;
+    }
+    .dest-img-container{
+        grid-template-columns: repeat(1, 1fr);
+      grid-template-areas: 
+      "mal"
+      "ind"
+      "sri"
+      "nam"
+      "kas"
+      "bd"
+      "ban"
+      ;
+      width: 87vw;
+    }
+    #dest-img{
+        background-size: cover;
+        height: 300px;
+    }
+    /*... Service section resp ... */
+    .service-content{
+        padding: 10px;
+    }
+    .service-content .heading{
+        margin-bottom: 30px;
+    }
+    .service-card-container1{
+        flex-direction: column;
+    }
+    .service-card3{
+        width: 100%;
+    }
+    /*... Route section resp ... */
+    .route-air, .route-marine, .route-road{
+      flex-direction: column;
+      padding: 0 10px;
+    }
+    .route-title{
+      margin-bottom: 30px;
+    }
+    .route-content{
+      padding: 10px;
+    }
+    .air-title, .marine-title, .road-title{
+      margin-top: 20px;
+    }
+    .flex-content{
+      width: calc(100% - 40px);
+    }
+    .route-img{
+      width: 100%;
+    }
+    .route-marine{
+      flex-direction: column-reverse;
+    }
+    /*... Newsletter section resp ... */
+    .newsletter-container{
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+    }
+    .input{
+      margin: 5px;
+    }
+    #name, #email{
+      width: 93%;
+      margin: 0 auto;
+    }
+    .subscribe{
+      width: 100%;
+    }
+    .news-img-container{
+      width: 100%;
+      height: 40vh;
+      /* height: 400px; */
+      /* background-size: cover; */
+      background-position: center;
+      object-fit: cover;
+    }
+    .news-tag{
+      position: relative;
+      left: 120px;
+      top: 165px;
+      transform: rotate(-19.628deg);
+      max-width: 50%;
+      text-align: center;
+      padding: 10px;
+      border: none;
+      border-radius: 20px;
+    background: #FF5400;
+     }
+     .save-link{
+      color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: normal;
+     }
+     .save-title{
+      color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+    line-height: normal;
+     }
+    /*... Footer section resp ... */
+    footer{
+      padding: 20px;
+    }
+    .footer-heading{
+      gap: 5px;
+      width: 50%;
+    }
+  }
