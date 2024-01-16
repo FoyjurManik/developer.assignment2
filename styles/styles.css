@@ -26,6 +26,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+} 
+.hadder-txt{
+    color: #424247;
 }
 .logo-img{
     margin-left: 100px;
@@ -35,7 +38,7 @@ nav{
 nav> ul{
     display: flex;    
     
-    color: #e0d9da3a;
+    color: #424247;
     margin-top: 50px;
     
     margin-right: 127px;
@@ -108,18 +111,45 @@ flex-shrink: 0;
     margin: 50px 330px 10px;
 }
 .row{
-    position: relative;
-    text-align: center;
-    display: flex;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     margin-bottom: 24px;
+    margin-left: 1000px;
 }
 .destination-imgs{
-   margin-left: 135px;
 
-    
+.image-size{
+    width: 573px;
+height: 300px;
 }
-.text-overlay{
+  .image-size1{
+    width: 573px;
+    height: 300px;
+  }
+  .image-size2{
+    width: 374px;
+    height: 286px;
+  }
+  .image-size3{
+    width: 474px;
+    height: 286px;
+}
+  .image-size4{
+    width: 274px;
+    height: 286px;
+  }
+  .image-size5{
+    width: 473px;
+    height: 300px;
+  }
+  .image-size6{
+    width: 673px;
+    height: 300px;
+  }  
+
+/* .text-overlay{ */
     position: absolute;
     margin: 150px 250px;
     transform: translate(-50%, -50%);
@@ -127,14 +157,14 @@ flex-shrink: 0;
     font-size: 1.5rem;
     text-align: center;
 }
-.text-overlay1{
+/* .text-overlay1{ */
     position: absolute;
-    margin: 150px 250px;
+    margin: 150px 600px;
     transform: translate(-50%, -50%);
     color: #FFF;
     font-size: 1.5rem;
 }
-.text-overlay2{
+/* .text-overlay2{ */
         position: absolute;
         margin: 150px 250px;
         transform: translate(-50%, -50%);
@@ -142,7 +172,7 @@ flex-shrink: 0;
         font-size: 1.5rem;
         text-align: center;
 }
-.text-overlay3{
+/* .text-overlay3{ */
             position: absolute;
             margin: 150px 250px;
             transform: translate(-50%, -50%);
@@ -150,7 +180,7 @@ flex-shrink: 0;
             font-size: 1.5rem;
             text-align: center;
 }
-.text-overlay4{
+/* .text-overlay4{ */
                 position: absolute;
                 margin: 150px 250px;
                 transform: translate(-50%, -50%);
@@ -158,7 +188,7 @@ flex-shrink: 0;
                 font-size: 1.5rem;
                 text-align: center;
 }
-.text-overlay5{
+/* .text-overlay5{ */
                     position: absolute;
                     margin: 150px 250px;
                     transform: translate(-50%, -50%);
@@ -166,7 +196,7 @@ flex-shrink: 0;
                     font-size: 1.5rem;
                     text-align: center;
 }
-.text-overlay6{
+/* .text-overlay6{ */
                         position: absolute;
                         margin: 150px 250px;
                         transform: translate(-50%, -50%);
