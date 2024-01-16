@@ -107,10 +107,72 @@ flex-shrink: 0;
     text-align: center;
     margin: 50px 330px 10px;
 }
+.row{
+    position: relative;
+    text-align: center;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
 .destination-imgs{
-    display: grid;
-    margin: 20px 135px 40px;
+   margin-left: 135px;
+
     
+}
+.text-overlay{
+    position: absolute;
+    margin: 150px 250px;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.text-overlay1{
+    position: absolute;
+    margin: 150px 250px;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 1.5rem;
+}
+.text-overlay2{
+        position: absolute;
+        margin: 150px 250px;
+        transform: translate(-50%, -50%);
+        color: #FFF;
+        font-size: 1.5rem;
+        text-align: center;
+}
+.text-overlay3{
+            position: absolute;
+            margin: 150px 250px;
+            transform: translate(-50%, -50%);
+            color: #FFF;
+            font-size: 1.5rem;
+            text-align: center;
+}
+.text-overlay4{
+                position: absolute;
+                margin: 150px 250px;
+                transform: translate(-50%, -50%);
+                color: #FFF;
+                font-size: 1.5rem;
+                text-align: center;
+}
+.text-overlay5{
+                    position: absolute;
+                    margin: 150px 250px;
+                    transform: translate(-50%, -50%);
+                    color: #FFF;
+                    font-size: 1.5rem;
+                    text-align: center;
+}
+.text-overlay6{
+                        position: absolute;
+                        margin: 150px 250px;
+                        transform: translate(-50%, -50%);
+                        color: #FFF;
+                        font-size: 1.5rem;
+                        text-align: center;
 }
 
 
@@ -124,16 +186,12 @@ flex-shrink: 0;
 
 
 
-
-
-
-
 /*responsive media quaries*/
-@media screen and (max-width: 576px) {
-    header{
+/* @media screen and (max-width: 576px) { */
+    /* header{ */
      padding: 20px;
     } 
-    nav{
+    /* nav{ */
      flex-direction: column;
     }
 
