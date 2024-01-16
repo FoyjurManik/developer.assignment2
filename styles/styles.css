@@ -1,228 +1,75 @@
-/*mulish font from google*/
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Open+Sans:wght@400;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
-/*shared styles*/
-*{
-    font-family: 'Mulish', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+/* .....Common shared styles..... */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+body{
+  font-family: 'Mulish', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1440px;
 }
-.text-home{
-    color: #FF5400;
-    border-radius: 1rem;
+main{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.description{
+  color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
 }
 .btn-primary{
-    
-    border-radius: 1rem;
-    color: #fff;
-    font-size: 1.25rem;
-    cursor: pointer;
-    background: #FF5400;
-    padding: 20px 25px;
-    border: 0;
-    margin-left: 40px
-
+  color: #FFF;
+  padding: 15px 25px;
+font-size: 1rem;
+font-weight: 700;
+border: none;
+  border-radius: 8px;
+background: #FF5400;
+cursor: pointer;
 }
-nav{
+.btn-primary:hover{
+  color: rgb(26, 6, 175);
+}
+.heading{
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+/* .....Header section styles...... */
+header{
+    margin-bottom: 70px;
+}
+  nav{
+    padding: 0 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-} 
-.hadder-txt{
-    color: #424247;
-}
-.logo-img{
-    margin-left: 100px;
-    
-    margin-top: 10px;
-}
-nav> ul{
-    display: flex;    
-    
-    color: #424247;
-    margin-top: 50px;
-    
-    margin-right: 127px;
-    display: inline-flex;
-   
-justify-content: center;
-align-items: center;
-gap: 44px;
-text-align: center;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-    list-style: none;
-    
-    font-size: 1rem;
-    text-decoration: none;
-    }
 
-.banner-title{
-    color: #FFF;
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    padding: 0px 200px 0px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    
-    }
-.banner-content{
-    color: #FFF;
-
-text-align: center;
-
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
-padding: 0px 175px 200px;
-margin-top: auto;
-margin-bottom: 50px;
-
-}
-.header{
-    background-image: linear-gradient(180deg, rgba(7, 2, 17, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
-    background-repeat: no-repeat;
-    margin: 30px 135px;
-    padding: 50px 0px 0px;
-    border-radius: 1rem;
-}
-.tour-details{
+  }
+  .nav-heading{
+    height: 50px;
     display: flex;
-
-}
-.tour-content{
-    color: black;
-    margin-left: 115px;
-    margin-right: 110px;
-
-}
-.tour-img{
-     margin-right: 135px;
-    
-     width: 540px;
-height: 550px;
-flex-shrink: 0;
-}
-.destination-title{
-    text-align: center;
-    margin: 50px 330px 10px;
-}
-.row{
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    margin-bottom: 24px;
-    margin-left: 1000px;
-}
-.destination-imgs{
-
-.image-size{
-    width: 573px;
-height: 300px;
-}
-  .image-size1{
-    width: 573px;
-    height: 300px;
+    gap: 20px;
+    align-items: center;
   }
-  .image-size2{
-    width: 374px;
-    height: 286px;
+  .nav-title{
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
   }
-  .image-size3{
-    width: 474px;
-    height: 286px;
-}
-  .image-size4{
-    width: 274px;
-    height: 286px;
+  .manik{
+    color: #131318;
+font-size: 2.25rem;
+font-weight: 800;
   }
-  .image-size5{
-    width: 473px;
-    height: 300px;
+  .nav-items{
+    display: flex;
+    gap: 30px;
+    list-style: none;
   }
-  .image-size6{
-    width: 673px;
-    height: 300px;
-  }  
-
-/* .text-overlay{ */
-    position: absolute;
-    margin: 150px 250px;
-    transform: translate(-50%, -50%);
-    color: #FFF;
-    font-size: 1.5rem;
-    text-align: center;
-}
-/* .text-overlay1{ */
-    position: absolute;
-    margin: 150px 600px;
-    transform: translate(-50%, -50%);
-    color: #FFF;
-    font-size: 1.5rem;
-}
-/* .text-overlay2{ */
-        position: absolute;
-        margin: 150px 250px;
-        transform: translate(-50%, -50%);
-        color: #FFF;
-        font-size: 1.5rem;
-        text-align: center;
-}
-/* .text-overlay3{ */
-            position: absolute;
-            margin: 150px 250px;
-            transform: translate(-50%, -50%);
-            color: #FFF;
-            font-size: 1.5rem;
-            text-align: center;
-}
-/* .text-overlay4{ */
-                position: absolute;
-                margin: 150px 250px;
-                transform: translate(-50%, -50%);
-                color: #FFF;
-                font-size: 1.5rem;
-                text-align: center;
-}
-/* .text-overlay5{ */
-                    position: absolute;
-                    margin: 150px 250px;
-                    transform: translate(-50%, -50%);
-                    color: #FFF;
-                    font-size: 1.5rem;
-                    text-align: center;
-}
-/* .text-overlay6{ */
-                        position: absolute;
-                        margin: 150px 250px;
-                        transform: translate(-50%, -50%);
-                        color: #FFF;
-                        font-size: 1.5rem;
-                        text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*responsive media quaries*/
-/* @media screen and (max-width: 576px) { */
-    /* header{ */
-     padding: 20px;
-    } 
-    /* nav{ */
-     flex-direction: column;
-    }
-
-    
+  .home{
+    color: #FF5400;
+font-size: 1.12rem;
+font-weight: 700;
+  }
