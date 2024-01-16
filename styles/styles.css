@@ -73,3 +73,133 @@ font-weight: 800;
 font-size: 1.12rem;
 font-weight: 700;
   }
+
+  /* ....Banner section styles..... */
+
+  .banner{
+    max-width: 1170px;
+    margin: 20px;
+    padding: 0 180px;
+    padding-top: 20px;
+    padding-bottom:70px ;
+    margin: 20px 50px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png); 
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+  }
+  .banner-container{
+    text-align: center;
+    padding: 0 30px;
+  }
+  .banner-title{
+    color: #FFF;
+font-size: 4rem;
+font-weight: 800;
+  }
+  .banner-description{
+    color: #FFF;
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-bottom: 20px;
+  }
+  .banner-input{
+    background-color: rgba(240, 248, 255, 0.51);
+    border-radius: 5px;
+    padding: 10px ;
+    margin-bottom: 10px;
+  }
+  .input-field,.bnr-btn{
+    width: 23%;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+/* .....Our Popular section styles..... */
+
+.popular-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+    .popular-content{
+        width: calc(100% - 20px);
+        padding: 10px;
+    }
+    .popular-image{
+        width: calc(100% - 20px);
+    }
+    .popular-image img{
+        width: 100%;
+    }
+    
+    /* .....Destination section styles..... */
+    
+    .dest-content{
+        text-align: center;
+        padding: 0 120px;
+    }
+    .dest-img-container{
+        margin: 70px auto;
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "mal mal mal mal mal mal    ind ind ind ind ind ind"
+        "sri sri sri sri   nam nam nam nam nam kas  kas kas"
+        "bd bd bd bd bd         ban ban ban ban ban ban ban"
+        ;
+    }
+    #dest-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        border-radius: 16px;
+        background-repeat: no-repeat;
+        background-position: center;
+        object-fit: cover;
+    }
+    .dest-img-1{
+    grid-area: mal;
+    background-image: url(../Images/Rectangle\ 5.png);
+    }
+    .dest-img-2{
+    grid-area: ind;
+    background-image: url(../Images/Rectangle\ 8.png);
+    }
+    .dest-img-3{
+    grid-area: sri;
+    background-image: url(../Images/Rectangle\ 6.png);
+    }
+    .dest-img-4{
+    grid-area: nam;
+    background-image: url(../Images/Rectangle\ 7.png);
+    }
+    .dest-img-5{
+    grid-area: kas;
+    background-image: url(../Images/Rectangle\ 9.png);
+    }
+    .dest-img-6{
+    grid-area: bd;
+    background-image: url(../Images/Rectangle\ 11.png);
+    }
+    .dest-img-7{
+    grid-area: ban;
+    background-image: url(../Images/Rectangle\ 10.png);
+    }
+    .dest-img-title{
+        color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    }
