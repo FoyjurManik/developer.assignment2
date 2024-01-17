@@ -437,8 +437,9 @@ footer{
         flex-direction: column;
 
     }
-    .nav-img{
-        margin-left: 5px;
+    .nav-im{
+        margin-left: 10px;
+        /* padding-left: 10px; */
     }
     
     nav{
@@ -451,11 +452,17 @@ footer{
 
     .hamburger-menu {
         display: flex;
-        margin: 10px 400px;
+        margin: 10px 510px;
+    }
+    .nav-heading{
+      /* margin-left: 5px; */
+      padding-left: 10px;
     }
 
     .banner{
-        padding:10px;
+        padding: 10px;
+        margin: 50px 50px 0px;
+        
     }
     .banner-input{
         display: flex;
@@ -591,5 +598,11 @@ footer{
     .footer-heading{
       gap: 5px;
       width: 50%;
+      text-align: center;
+      /* margin-left: 100px; */
+    }
+    .footer-title{
+      font-size: 2rem;
+      font-weight: 800;
     }
   }
